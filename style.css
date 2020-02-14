@@ -1,0 +1,170 @@
+﻿
+html { font-size:100%; }
+
+
+
+
+body {
+   margin:10px 0px 0px 0px;
+   padding:0px;
+   background-image:url('images/quizBG.jpg');
+   background-size:150%;
+     background-repeat: no-repeat;
+   
+}
+
+
+#logo {
+position: absolute;
+right: 0px;
+bottom: 10px;			
+}
+
+p {
+	color: black;
+	margin-left: 20px;
+	font-size: 20px;
+	 font-family: 'Abel', sans-serif;
+	 line-height: 95%;
+	 
+	 }
+	 
+
+h1 {
+	font-family: 'Medula One', cursive;
+	color: black;
+	font-size: 60px;
+	margin-left: 20px;
+	margin-bottom: 30px;
+	margin-top: 15px;
+	
+}
+
+#restart {
+	margin-left: 20px;
+}
+
+
+#next, #submit{
+	margin-left: 20px;
+	margin-top: 15px;
+	display: inline-block;
+	
+}
+
+#submit {
+	margin-top: -20px;
+	
+}
+
+
+#hint {
+margin-left: 20px;
+	display: inline;
+}
+
+#hintAns {
+			font-size:large;
+	font-family: 'Abel', sans-serif;
+	margin: 10px;
+	font-style:italic;
+	margin-top: 15px;
+	color: black;
+	font-size:20px;
+	
+	width:500px;
+ 
+}
+
+#container{
+   height:700px;
+   width:750px;
+   margin:auto;
+   padding: 20px 25px;
+   color: white;
+}
+
+#container img {
+   margin: 0px auto;
+}
+
+button  {
+background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin-left: 20px;
+    cursor: pointer;
+    display: inline-block;
+		
+	
+}
+
+
+button:hover {
+	transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+	cursor:pointer;
+}
+
+
+
+
+#start button, #results button {
+	padding: 12px;
+	font-size: 15px;
+}
+
+#results {
+	visibility:hidden;
+}
+
+
+#quiz, #start, #results{
+
+	background: orange;
+	opacity: 0.95;
+	border-style:solid;
+	border-color: white;
+	width: 800px;
+	height: 450px;
+	border-radius: 20px;
+		  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: left;
+   margin-left:-50px;/* half width*/
+   
+}
+
+#validation {
+	color: red;
+		font-style: italic;
+		margin: 10px;
+		font-size:20px;
+		width:500px;
+	font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+#question {
+	
+	font-size: 40px;
+	font-family: 'Medula One', cursive;	
+	padding: 20px;
+	margin-top: 10px;
+	color: black;
+	
+}
+#answer1, #answer2, #answer3, #answer4 {
+		font-size:large;
+	font-family: 'Abel', sans-serif;
+	margin: 10px;
+	color: black;
+	font-size:20px;
+	font-weight:bold;
+	
+}
+
+
+
+img { max-width: 100%; }
